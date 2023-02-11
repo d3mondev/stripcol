@@ -12,8 +12,8 @@ echo -e '\033[31mHello\033[0m World' | stripcol
 This command will output "Hello World" with color codes removed.
 
 ## Installation
-To install nocol, you need to have [Go](https://go.dev/dl/) installed on your system.
+To install `stripcol`, you need to have [Go](https://go.dev/dl/) installed on your system.
 
 ```
-go install -v github.com/d3mondev/stripcol/cmd/stripcol
+go install github.com/d3mondev/stripcol/cmd/stripcol@latest
 ```
